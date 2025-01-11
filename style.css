@@ -397,7 +397,8 @@ footer h1 {
   text-align: center;
   padding: 1%;
 }
-.social-icon {
+.social-icon ul {
+  list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
