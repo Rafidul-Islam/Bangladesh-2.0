@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 8%;
+}
+header nav button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid green;
+  font-size: 1.1rem;
+  color: green;
+}
+/* banner 1 styling starts here */
+.banner1 {
+  margin: 0 8%;
+  background-color: #c6e4d6;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6% 2% 6% 3%;
+  margin-top: 1.5%;
+}
+
+.banner1-title {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  height: 100%;
+}
+.banner1-title p {
+  color: rgb(107, 106, 106);
+  padding: 8px 8px 10px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.banner1-title h1 {
+  font-size: 3.3rem;
+}
+.banner1-title > button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 35px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #006a50;
+  box-shadow: 2px 2px 5px black;
+}
+.banner1-img {
+  width: 40%;
+  height: 100%;
+}
+.banner1-img img {
+  width: 100%;
+}
+/* pillar section style */
+.pillar-section {
+  margin: 2% 8% 2%;
+}
+
+.pillar-head h1 {
+  padding: 30px 0;
+  font-size: 2rem;
+}
+.pillar-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  /* border: 1px solid black; */
+  width:25%;
+  height:320px;
+  padding: 2%;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.01);
+  overflow:hidden;
+}
+.card h1 {
+  padding: 15px 0;
+}
+.card p {
+  color: rgba(0, 0, 0, 0.6);
+}
+/* vision section  */
+.vision-section {
+  margin: 2% 8% 2%;
+}
+.vision-title {
+  margin-top: 2%;
+}
+.vision-title h1 {
+  padding: 20px 0;
+  font-size: 2rem;
+}
+.vision-title p {
+  color: rgb(80, 80, 80);
+}
+.vision-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2%;
+  padding: 0;
+}
+
+.card2 {
+  width: 32%;
+  gap: 15px;
+  /* border: 1px solid black; */
+  padding: 2.5% 2%;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.01);
+  border: none;
+}
+.card2 h1 {
+  padding: 10px 0;
+}
+
+.card2-1 {
+  background-color: #d5e1f5;
+}
+.btn1 {
+  background-color: #5490f5;
+}
+.btn2 {
+  background-color: #09a15c;
+}
+.btn3 {
+  background-color: #ffc239;
+}
+.card2-2 {
+  background-color: #ade8d9;
+}
+.card2-3 {
+  background-color: #f7ebcf;
+}
+.learn-btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 20px;
+  color: white;
+  font-weight: 600;
+  ;}
+/* Quote section */
+.quote-section {
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.07);
+  background-position: 3% 4%;
+  margin: 4% 8.5% 4%;
+  border-radius: 10px;
+  padding: 3% 2% 2%;
+  background-color: #ffffff;
+}
+.quote-section h1 {
+  padding: 20px 0px 5px;
+  font-size: 1.5rem;
+}
+.quote-section p {
+  line-height: 1.4;
+  color: rgb(50, 50, 50);
+  font-weight: bold;
+}
+.quote-section .yunus-title {
+  color: rgb(80, 80, 80);
+  font-weight: 550;
+}
+
+/* opinion section styling */
+.opinion-section {
+  margin: 2% 8% 2%;
+}
+.table-section {
+  padding: 2%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.07);
+}
+.opinion-title {
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}
+table {
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 20px;
+  border-collapse: collapse;
+}
+table,
+td {
+  padding: 15px;
+  border: 1px solid rgb(212, 208, 208);
+}
+.sm-color,
+.sm-color2 {
+  background-color: #c6e4d6;
+}
+.sm-color2 {
+  text-align: center;
+}
+.select {
+  text-align: center;
+}
+select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #c6e4d6;
+}
+/* news section Styling */
+.news-section {
+  margin: 2% 8% 2%;
+}
+.news {
+  margin-bottom: 20px;
+}
+.news-section h1 {
+  padding: 20px 0;
+  font-size: 2rem;
+}
+.news-section > p {
+  padding: 0 0 20px 0;
+}
+.news-section .news {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 2%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.07);
+  padding: 2%;
+}
+
+.news .img {
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid; */
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.news .description {
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid black; */
+  padding: 1%;
+}
+.description h1 {
+  padding: 10px 0 5px;
+}
+.description > img {
+  padding: 0 0;
+}
+.description .time {
+  padding: 5px 0;
+  font-size: 0.8rem;
+}
+.description p {
+  font-size: 1rem;
+  padding: 10px 0 20px;
+}
+.read-more-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #006a50;
+  color: white;
+  font-weight: 600;
+}
+/* Donation section styling */
+.donation {
+  margin: 2% 8% 2%;
+}
+.donation h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1%;
+}
+.donation p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.ammount-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+
+  /* flex-direction: column; */
+}
+.ammount {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 15%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(79, 76, 76);
+  background-color: #fff;
+  border: none;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.07);
+}
+.ammount:hover {
+  background-color: #69d8a6;
+}
+.others {
+  width: 68%;
+  /* height: 30px; */
+  border: 1px solid black;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.07);
+  border: none;
+  border-radius: 5px;
+}
+.others p {
+  text-align: center;
+  padding: 10px;
+  color: rgb(180, 180, 180);
+}
+.donate-btn {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #006a50;
+  color: white;
+  font-weight: 600;
+}
+.newsletter {
+  margin: 2% 8% 2%;
+  background-color: #c6e4d6;
+  border-radius: 20px;
+  padding: 4%;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.07);
+}
+.newsletter h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+}
+.newsletter p {
+  text-align: center;
+  padding: 0 0 15px 0;
+}
+.newsletter .last-p {
+  padding: 15px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+.input input[type="button"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #006a50;
+  color: white;
+  font-weight: 600;
+}
+footer {
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.07);
+  margin-top: 3%;
+}
+footer h1 {
+  text-align: center;
+  padding: 1%;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
