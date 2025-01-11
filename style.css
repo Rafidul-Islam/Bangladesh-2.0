@@ -81,13 +81,13 @@ header nav button {
 }
 .card {
   /* border: 1px solid black; */
-  width:25%;
-  height:320px;
+  width: 25%;
+  height: 320px;
   padding: 2%;
   border-radius: 15px;
   background-color: white;
   box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.01);
-  overflow:hidden;
+  overflow: hidden;
 }
 .card h1 {
   padding: 15px 0;
@@ -156,7 +156,11 @@ header nav button {
   margin-top: 20px;
   color: white;
   font-weight: 600;
-  ;}
+}
+.learn-btn:hover{
+  box-shadow: 2px 2px 5px black;
+  
+}
 /* Quote section */
 .quote-section {
   background-image: url("assets/quote-bg.png");
