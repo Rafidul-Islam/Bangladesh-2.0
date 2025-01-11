@@ -355,6 +355,9 @@ select {
   color: white;
   font-weight: 600;
 }
+.donate-btn:hover{
+  box-shadow:2px 2px 2px black;
+}
 .newsletter {
   margin: 2% 8% 2%;
   background-color: #c6e4d6;
